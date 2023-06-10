@@ -1,13 +1,12 @@
 package com.api.models.entities;
 
 import java.io.Serializable;
-
-import jakarta.annotation.Generated;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import jakarta.validation.constraints.NotEmpty;
 
 @Entity
 @Table(name="product")
@@ -17,10 +16,14 @@ public class Product implements Serializable{
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @NotEmpty(message = "Name is required")
     private String  name;
+    @NotEmpty(message = "Descripton is required")
     private String  description;
+    // @NotEmpty(message = "Quantity is required")
     private double  quantity;
-    private double  price;
+    // @NotEmpty(message = "Price is required")    
+    private double price;
 
     public Product() {
     }
