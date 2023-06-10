@@ -10,9 +10,9 @@ require:
 - Lombok
 
 
-<h3>Login </h3>
+<h3>VS Code </h3>
 <img src="/Screen Shot 1.png" alt=""/>
 
-<h3>Log User</h3>
+<h3>Insomnia</h3>
 <img src="/Screen Shot 2.png" alt=""/>
 
