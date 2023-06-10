@@ -9,7 +9,7 @@ require:
 - Spring Web
 - Lombok
 
->>> Update Validation Create, Update, Find and Delete (Branch: Validation Final)
+> Update Validation Create, Update, Find and Delete (Branch: Final Validation)
 
 
 
